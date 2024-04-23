@@ -5,7 +5,7 @@ Procvic.to je webová stránka, která uživatelům umožňuje vytvářet balí�
 
 ## Přihlášení
 - Index.html obsahuje přihlašovací formulář, skrze který uživatel přihlašuje do svého účtu. Jakmile se příhlásí dostane se na stránku komunitních balíčků.
-![prihlaseni]([pohledy/prihlaseni.png](https://github.com/pslib-cz/2023-l4-web-mockupapp-DominikLazna/blob/main/pohledy/prihlaseni.png)
+![prihlaseni](https://github.com/pslib-cz/2023-l4-web-mockupapp-DominikLazna/blob/main/pohledy/prihlaseni.png)
 
 ## Komunitní balíčky
 - Zde je již možné vidět vytvořené balíčky karet od všech uživatelů.
