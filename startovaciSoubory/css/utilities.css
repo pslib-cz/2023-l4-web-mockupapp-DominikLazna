@@ -1,0 +1,25 @@
+.u-bold {
+    font-weight: 700;
+}
+
+.u-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-flex-auto-gap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.u-gradient-font {
+    background: linear-gradient(to right, var(--dark-green), var(--green), var(--light-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Procvic.to | Moje balíčky</title>
+</head>
+<body>
+        <nav class="nav">
+            <menu class="nav__menu">
+                <li><h1 class="nav__heading">Procvic.to</h1></li>
+                <li><a href="./global-balicky.html">Komunitní balíčky</a></li>
+                <li><a class="u-bold" href="./moje-balicky.html">Moje balíčky</a></li>
+                <li>
+                    <form class=search-bar>
+                        <input class="search-bar__input" type="text" placeholder="Angličtina frázová slovesa">
+                        <button class="search-bar__button"></button>
+                    </form>
+                </li>
+            </menu>
+            <menu>
+                <li class="u-bold">Petr Horáček</li>
+            </menu>
+        </nav>
+        <main>
+            <div class="categories-container">
+                <button class="button button--category">Angličtina</button>
+                <button class="button button--category">Němčina</button>
+                <button class="button button--category">Maturitní otázky</button>
+                <button class="button button--category">Fyzika</button>
+                <button class="button button--category">Čeština</button>
+                <button class="button button--category">Elektrotechnika</button>
+                <button class="button button--category">Strojírenství</button>
+            </div>
+            <section class="sets-container">
+                <a href="./editor.html">
+                    <div class="create-set">
+                        <div class="create-set__plus"></div>
+                        <p class="u-gradient-font u-bold">Vytvořit balíček</p>
+                    </div>
+                </a>
+                <div class="card-set">
+                    <div class="card-set__head">
+                        <h2 class="card-set__heading">NEJ Unit 7 slovíčka</h2>
+                        <p>Štěpán Kopeček</p>
+                        <div class="card-set__size">
+                            <p>24</p>
+                            <img src="./svg/cards.svg" alt="Karty">
+                        </div>
+                    </div>
+                    <div class=card-set__body>
+                        <div class="card-set__rating">
+                            <div class="card-set__review">
+                                <p>7</p>
+                                <img src="./svg/like.svg" alt="Tlačítko to se mi líbí">
+                            </div>
+                            <div class="card-set__review">
+                                <p>1</p>
+                                <img src="./svg/dislike.svg" alt="Tlačítko to se mi nelíbí">
+                            </div>
+                        </div>
+                        <a class="button" href="#">Procvičit</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+</body>
+</html>

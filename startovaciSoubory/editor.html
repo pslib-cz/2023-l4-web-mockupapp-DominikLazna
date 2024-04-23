@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Procvic.to | Editor balíčku</title>
+</head>
+<body>
+    <nav class="nav">
+        <menu class="nav__menu">
+            <li><h1 class="nav__heading">Procvic.to</h1></li>
+            <li><a href="./global-balicky.html">Komunitní balíčky</a></li>
+            <li><a href="./moje-balicky.html">Moje balíčky</a></li>
+            <li>
+                <form class=search-bar>
+                    <input class="search-bar__input" type="text" placeholder="Angličtina frázová slovesa">
+                    <button class="search-bar__button"></button>
+                </form>
+            </li>
+        </menu>
+        <menu>
+            <li class="u-bold">Petr Horáček</li>
+        </menu>
+    </nav>
+    <main>
+        <section>
+            <div class="u-flex-auto-gap">
+                <h2 class="u-gradient-font">Editor balíčku</h2>
+                <button class="button">Vytvořit balíček</button>
+            </div>
+            <div class="editor-info">
+                <div class="editor-info__name">
+                    <h3 class="editor-info__heading u-gradient-font">Název balíčku</h3>
+                    <input class="input" type="text" placeholder="Němčina slovíčka 4. lekce">
+                </div>
+                <div class="editor-info__categories">
+                    <h3 class="editor-info__heading u-gradient-font">Kategorie</h3>
+                    <section class="categories-container">
+                        <button class="button button--category">Angličtina</button>
+                        <button class="button button--category">Němčina</button>
+                        <button class="button button--category">Maturitní otázky</button>
+                        <button class="button button--category">Fyzika</button>
+                        <button class="button button--category">Čeština</button>
+                        <button class="button button--category">Elektrotechnika</button>
+                        <button class="button button--category">Strojírenství</button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-editor">
+                <p class=card-editor__number>1. karta</p>
+                <div class="card-editor__terms">
+                    <input class="input" type="text" placeholder="První strana karty">
+                    <input class="input" type="text" placeholder="Druhá strana karty">
+                    <div class="card-editor__delete"></div>
+                </div>
+            </div>
+            <button class="button u-center">Vytvořit další kartu</button>
+        </section>
+    </main>
+</body>
+</html>
